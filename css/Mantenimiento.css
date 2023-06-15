@@ -1,0 +1,247 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+width: 100%;
+    background-color: grey;
+    position: absolute;
+
+}
+#Contenedor{
+    background: linear-gradient(#303ac5,#3f73d4);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+header{
+   width: 100%; 
+   background-color: white;
+}
+nav{
+    width: 100%;
+    background: linear-gradient(#353333, #000000);
+    display: flex;
+    justify-content: space-around;
+}
+aside{
+    width: 50%;
+padding-top: 30px;
+display: flex;
+flex-direction: column;
+
+}
+aside div input {
+width: 300px;
+height: 30px;
+margin: 5px;
+padding-left: 3px;
+}
+aside div select {
+    width: 300px;
+height: 30px;
+margin: 5px;
+padding-left: 3px;
+border-radius: 10px;
+border: solid 2px white;
+}
+#fecha {
+    text-align: center;
+    color: grey;
+    
+}
+aside div {
+    text-align: center;
+}
+#fallo2 {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+}
+section{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    float: inherit;
+    justify-content: center;
+    
+   
+}
+footer{
+    width: 100%;
+
+    background: linear-gradient(#000000, #292929); 
+    background-color: #93B874; 
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+nav a:hover{
+    
+    color: black;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    
+    
+
+
+
+img.iconos{
+    display: flex;
+    float: right;
+    margin: 20px 20px 20px 5px;
+}
+section div iframe {
+   margin-top: 10px;
+   margin-left: 40px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   }
+   iframe:hover {
+    border: solid 2px white;
+}
+   
+
+section div h1{ 
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+aside form input {
+    border: solid 2px white;
+    border-radius: 5px;
+}
+#enviar2:hover {
+    background-color: rgb(5, 87, 87);
+    text-decoration: rgb(2, 99, 99);
+    
+   
+    
+}
+#enviar2 {
+   background-color: teal;
+   color: white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}#nombre {
+    animation-name: animacion1;
+    animation-duration: 2.8s;
+    position: relative;
+}
+
+
+
+@keyframes animacion1 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}    
+
+#telefono {
+    animation-name: animacion2;
+    animation-duration: 3s;
+    position: relative;
+}
+
+
+
+@keyframes animacion2 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}    
+
+#correo {
+    animation-name: animacion3;
+    animation-duration: 3.2s;
+    position: relative;
+}
+
+
+
+@keyframes animacion3 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}    
+#tienda{
+    animation-name: animacion4;
+    animation-duration: 3.4s;
+    position: relative;
+}
+
+
+
+@keyframes animacion4 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}  
+#fecha{
+    animation-name: animacion5;
+    animation-duration: 3.6s;
+    position: relative;
+}
+
+
+
+@keyframes animacion5 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}      
+#fallo{
+    animation-name: animacion6;
+    animation-duration: 3.8s;
+    position: relative;
+}
+
+
+
+@keyframes animacion6 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}    
+#enviar{
+    animation-name: animacion7;
+    animation-duration: 4s;
+    position: relative;
+}
+
+
+
+@keyframes animacion7 {
+    0% { top: 0px;left: 300px; }
+    100% {top:0px; left: 0px;  }
+}    
+
+   
+  #banner {
+      width: 100%;
+  }
+
+#contenedor2{
+   width: 100%;
+    height: 100%;
+
+}
+#logo1 {
+    height: 100%;
+}
+ 
+ 

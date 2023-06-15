@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Contenedor{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+   width: 100%; 
+}
+nav{
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+aside{
+    width: 20%;
+    background-color: black;
+    position: relative;
+}
+section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+
+    background: linear-gradient(#000000, #292929); 
+    background-color: #93B874; 
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 15px 30px;
+    transition:.5s;    
+}
+
+nav>ul>li{
+    display: inline-block;
+}
+nav a:hover{
+    background-color:black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+aside ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+}
+
+aside>ul>li{
+    display: block;
+    position: relative;
+}
+aside>ul>li>ul{
+    max-width: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: .5s;
+    top: 0%;
+    left: 100%;
+}
+aside>ul>li:hover>ul{
+    max-width: 1400px;
+    overflow: visible;
+    
+    background-color:black;
+    top: 0%;
+    left: 100%;
+}
+aside a:hover{
+    background-color: black;
+    text-decoration: underline;
+   
+}
+img.baner{
+    width: 100%;
+    vertical-align: bottom;
+    
+}
+
+section figure{
+    width: 30%;
+    margin: 10px 5px;
+    border: 8px double rgb(211, 211, 211);    
+}
+section figure img{
+    width: 100%;
+    
+    display: block;
+    margin: 5px auto;
+    
+}
+section figure figcaption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+}
+
+img.iconos{
+    display: flex;
+    float: right;
+    margin: 20px 20px 20px 5px;
+}
+aside iframe{
+    width: 90%;
+    margin: 50px 10px;
+    border: 5px double red;
+}
+aside audio{
+    width: 100%;
+}
+#cajaanimada{
+    text-align: center;
+    font-size: 15pt;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    width: 90%;
+    height: 200px;
+    animation: anuncio 3s linear 0.5s infinite alternate;   
+}
+
+@keyframes anuncio {
+    0% {
+        background-color: red;
+        top: 500px;
+        left: 10px;
+    }
+    50%{
+        background-color:yellow;
+        top: 700px;
+        left: 10px;
+    }
+    100%{
+        background-color: red;
+        top: 500px;
+        left: 10px;
+    }
+    
+}
+#cajaanimada img{
+    width: 60%;
+}
+section figure img{
+    transition: width 0.6s ease-in-out 0s;
+}
+section figure img:hover{
+    width: 90%;
+    height: 90%;
+}
